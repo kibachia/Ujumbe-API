@@ -1,0 +1,56 @@
+body {
+	background: #FBFCFC;
+}
+
+body p, body {
+	font-size: 15px;
+}
+
+.setup h3 > img {
+	width: 42px;
+	float: left;
+	margin-right: 10px;
+}
+
+.tab-content {
+	background: #fff;
+}
+
+.margin-bottom-15 {
+	margin-bottom: 15px;
+}
+
+.apiUrl .lead {
+	font-size: 20px;
+	margin-bottom: 0;
+	margin-right: 10px;
+	margin-top: 7px;
+}
+
+.apiUrl pre {
+	margin-bottom: 0;
+}
+
+.margin-top-32 {
+	margin-top: 32px;
+}
+
+.margin-bottom-0 {
+	margin-bottom: 0px;
+}
+
+.margin-bottom-10 {
+	margin-bottom: 10px !important;
+}
+
+.margin-bottom-15 {
+	margin-bottom: 15px;
+}
+
+h3.smaller, h4.smaller, h5.smaller, h6.smaller {
+	font-size: 20px;
+}
+
+code.smaller {
+	font-size: 12px;
+}
