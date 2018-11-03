@@ -1,0 +1,73 @@
+body {
+	padding-top: 80px;
+}
+
+#table {
+	table-layout: fixed;
+	background: #fff;
+}
+
+table td > .cell {
+	overflow: hidden;
+	cursor: pointer;
+	position: relative;
+}
+
+table td > .cell > span {
+	position: absolute;
+	display: block;
+	width: 15px;
+	height: 15px;
+	right: 0px;
+	top: 5px;
+}
+
+table td > .cell.closed {
+	background: transparent url(../images/down.png) right 5px no-repeat;
+	height: 20px;
+}
+
+table td > .cell.open {
+	background: transparent url(../images/up.png) right 5px no-repeat;
+	height: auto;
+}
+
+table td > .cell table {
+	margin-bottom: 0px;
+	font-size: 14px;
+}
+
+table td > .cell table, table td > .cell table td {
+	border: 0px !important;
+	background: none !important;
+}
+
+table td > .cell table td {
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 10px;
+}
+
+table td > .cell table tr > td:first-child {
+	width: 30%;
+}
+
+.actions {
+	margin-bottom: 30px;
+}
+
+.actions .pagination {
+	margin-top: 0px;
+}
+
+.info {
+	margin-bottom: 25px;
+}
+
+#mainNav .no-right-padding {
+	padding-left: 0px;
+}
+
+#mainNav .no-right-padding {
+	padding-right: 0px;
+}
